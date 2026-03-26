@@ -1,0 +1,19 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "driver.jejmo.com" }],
+      "destination": "/driver_app.html"
+    },
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "kitchen.jejmo.com" }],
+      "destination": "/kitchen_app.html"
+    },
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "manager.jejmo.com" }],
+      "destination": "/manager_app.html"
+    }
+  ]
+}
